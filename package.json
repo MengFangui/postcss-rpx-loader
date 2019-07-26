@@ -1,6 +1,6 @@
 {
   "name": "postcss-rpx-loader",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "PostCSS plugin that makes you to use `rpx` (responsive px) unit in style sheets",
   "keywords": [
     "postcss",

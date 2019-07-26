@@ -85,6 +85,26 @@ div {
 }
 ```
 
+## 与Vue CLI集成
+
+在项目根目录中，执行`npm i postcss-rpx-loader -D`以安装本插件
+
+在`package.json`中
+
+```json
+{
+  "name": "",
+  "version": "",
+  // 此处省略一万字
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "postcss-rpx-loader": {} // 增加本行
+    }
+  }
+}
+```
+
 <!-- ```js
 postcss([ require('postcss-rpx-loader') ])
 ```

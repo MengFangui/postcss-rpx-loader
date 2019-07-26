@@ -87,6 +87,26 @@ div {
 }
 ```
 
+## Integrate with Vue CLI
+
+Run `npm i postcss-rpx-loader -D` in the root directory of your project.
+
+In `package.json`
+
+```json
+{
+  "name": "",
+  "version": "",
+  // ...
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "postcss-rpx-loader": {} // Add this
+    }
+  }
+}
+```
+
 <!-- ```js
 postcss([ require('postcss-rpx-loader') ])
 ```
