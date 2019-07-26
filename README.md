@@ -1,6 +1,6 @@
 # PostCSS Rpx Loader [![Build Status][ci-img]][ci]
 
-中文说明请见`README.zh-hans.md`
+中文说明请见[README.zh-hans.md](https://github.com/vlev1n/postcss-rpx-loader/blob/master/README.zh-hans.md)
 
 [PostCSS] plugin that makes you to use `rpx` (responsive px) unit in style sheets.
 
